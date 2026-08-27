@@ -1,4 +1,4 @@
 class Solution(object):
     def isAnagram(self, s, t):
-        return sorted(s) == sorted(t)
+       return Counter(s) == Counter(t)
         
